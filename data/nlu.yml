@@ -1,0 +1,137 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - what can you do?
+    - are you a human?
+    - am I talking to a bot?
+    - what are you doing?i'm
+    - am I talking to a human?
+
+
+- intent: info_corona
+  examples: |
+    - what is coronavirus?
+    - what is covid19?
+
+- intent: info_fakenews
+  examples: |
+    - what is fakenews?
+    - examples of fake news
+
+- intent: info_analyze
+  examples: |
+    - Covid19
+    - 5G
+    - Covid
+    - drugs
+    - vaccines
+    - drug
+    - water
+    - japanese
+    - infected
+    - temperature
+    - hands
+    - wash
+    - antibiotics
+    - pandemic
+    - coronavirus
+    - virus
+    - corona
+    - deaths
+    - Bill Gates
+    - experts
+    - alcohol
+    - risk
+    - health
+    - problems
+    - Frequent or excessive alcohol consumption can increase your risk of health problems
+    - 2019 novel coronavirus contains "pShuttle-SN" sequence proving laboratory origin
+    - As if we didn't have enough to worry about with terrorism, nuclear proliferation and, yes, political enemies, now we have the threat – in fact, a very real one – of what could be an international health catastrophe.And it all goes back to China.There's a new and apparently deadly virus circulating in that country, but what has health officials worldwide worried is that it is spreading faster than first anticipated. It started in Wuhan, China, in late December but by mid-January had spread to 13 countries.Despite that, World Health Organization officials are reluctant to call it a Public Health Emergency.What do we call that kind of disease spread? According to WHO officials, an "epidemic" is a disease that spreads in a smaller community, country, region or continent.That certainly gives it wide leeway.The next category is a "pandemic," a disease, usually a new one, that spreads worldwide with terrible numbers of deaths.From what we are seeing now, I think we're well on our way to that situation, although health officials so far are playing it safe with their predictions.The culprit is called a "coronavirus." It's new – never been seen before. We don't know where it came from, There is no prevention, no cure, and even treatment is limited.What's interesting is that China has a National Biosafety Laboratory in Wuhan. It opened in January 2018, and it's dedicated to studying such viruses such as SARS and Ebola – and, yes, corona. There has been speculation that perhaps the virus got loose from the lab and that is what started it all.Regardless, at this point, China has quarantined the entire city of Wuhan and is doing the same with at least 13 other cities, canceled Chinese New Year Celebrations; parts of The Great Wall are shut down; Disneyland in Shanghai is closed, as are many McDonald's restaurants across the country. Millions of people are affected by the crackdown on travel.The government had ordered the immediate building of a new hospital to treat coronavirus patients because existing facilities are filled to their limits. Transportation has been limited; the military is on the streets; and in fact, it appears the country is virtually locked down.While there hasn't been an official notice of the dangers of the massive spread of the disease, airlines and airports across the world are taking precautions. Passengers are being checked for symptoms of a cold or flu, and their temperatures are being monitored.Screening at U.S. airports began at Kennedy in New York, in Los Angeles and San Francisco. Then Atlanta was added, as well as O'Hare in Chicago. Others are being added as suspicious cases are discovered.A man in Seattle was diagnosed, then a woman in Chicago who'd just returned from China. Cases are being monitored in Texas involving a returning passenger from Mexico, and possible patients at Tennessee Tech and Texas A&M.The CDC is testing 63 other cases, and it's reported there are 10 people in isolation in California for further study.There is concern about all transportation to and from China of people and merchandise.While there is caution in predicting the outcome of this disease spread, scientists warn that worldwide, tens of millions could die. Scientists at Johns Hopkins Center for Health Safety said 65 million could die as the disease spreads worldwide in 18 months.As I write, coronavirus has been found in China, the U.S., Nepal, Thailand, Singapore, Vietnam, Macau, Hong Kong, Taiwan, Japan and South Korea, with suspicious cases in Australia, New Zealand, England, Scotland and Ireland – and at least 26 are dead. That's probably a gross understatement.It isn't known for certain HOW people contract it – first thoughts were that it came from contact with animals, either by contact or through eating them.Now, it's just been determined that it is possible for it to spread from person-to-person. Transmission is through saliva, which means that kissing, coughing or sneezing is a danger but eating utensils could also transmit it. Symptoms are like a cold – coughing, sneezing, sore throat, runny nose, difficulty breathing, fever and then collapse. Pneumonia then follows, then death.We cannot cure it. It's difficult to contain. Antibiotics don't work, and anti-viral drugs and vaccines don't exist, nor will they for a long time – it does take time and costs millions. For many victims, it will be too late.This isn't the first time the world has been hit with a massive pandemic – the Spanish Flu in 1918 killed 20-50 million, Cholera flues in the 1800s killed over 2 million, the Black Death in Europe killed upwards of 200 million and devastated the continent. More recently, there was AIDS, Zica, SARS and Ebola.One aspect of the disease is the effect on the economy. Without doubt, travel has been affected. It's reported that shares in travel markets in China and Hong Kong dropped, but one market share has surged: companies that make surgical masks!
+    - Long-time listeners of conservative talk radio legend Rush Limbaugh know that he doesn’t deal in tinfoil hat conspiracy theories, so when he offers what might seem as a ‘non-linear’ or non-traditional take on an issue of the day, it’s head-turning.Most Americans may not have given the Wuhan coronavirus much thought before this week — before the virus hit American shores. But some of those who have been tracking the outbreak since December, when it first appeared in China, have wondered whether it could have been some sort of biological weapon that the People’s Liberation Army was developing.And earlier this week, Limbaugh echoed similar sentiments.“It’s a respiratory system virus. It probably is a ChiCom laboratory experiment that is in the process of being weaponized. All superpower nations weaponize bioweapons. They experiment with them. The Russians, for example, have weaponized fentanyl,” he said. But in any event, his comments about it being a potential bioweapon are not the first. Sen. Tom Cotton (R-Ark.), thinks so too, and for that he is being mocked by the very same mainstream media that lied about the “Trump-Russia collusion” hoax for nearly three years.Specifically, Cotton suggested that the virus originated in China’s only BioLevel 4 research facility — which just happens to be in Wuhan City, the epicenter of the outbreak. And furthermore, Cotton has never said there is 100 percent proof the virus is a bioweapon.Failing to ask this question is the real conspiracy. “We don’t have evidence that this disease originated there,” he said during a recent interview on Fox News, the New York Times reported, “but because of China’s duplicity and dishonesty from the beginning, we need to at least ask the question to see what the evidence says, and China right now is not giving evidence on that question at all.”Mind you, Cotton is a Harvard-educated lawyer and U.S. Army infantry officer with combat experience. He’s not a kook, he’s not a conspiracy theorist, and he’s not some wild-eyed lunatic. The Times jeered: Mr. Cotton later walked back the idea that the coronavirus was a Chinese bioweapon run amok. But it is the sort of tale that resonates with an expanding chorus of voices in Washington who see China as a growing Soviet-level threat to the United States, echoing the anti-Communist thinking of the Cold War era. Right-wing media outlets fan the anger.This, from a newspaper that, again, ‘fanned’ the BS hoax that Moscow and Donald Trump “colluded to steal the election from Hillary Clinton” — for two-plus years. And it was the same paper that repeatedly told readers former special counsel Robert Mueller ‘had proof’ of that hoax — when at the end of his probe, his report said specifically that there was “no evidence” to support the claim.What’s really interesting here is that “mainstream media” outlets like the Times, CNN, The Washington Post, USA Today and others make wild claims about President Trump, and members of his administration, based on less empirical evidence. At least in the case of Cotton and Limbaugh, there is enough circumstantial evidence to warrant suspicions and ask the question: Did the novel coronavirus (as in, this is the first time its been seen) originate from the only lab in China capable of dealing with/handling this type of biohazard? The people who dismiss the question out of hand are the real conspirators.
+    - Now that the state and its media have falsely characterized the coronavirus as a pandemic closing in on the 1918 flu pandemic (falsely attributed to Spain), it is time for the global elite and their technocrats to force not only highly-profitable (for Big Pharma) vaccines on the world but biometric IDs as well. “As countries begin to lift coronavirus lockdowns, biometric identification can help verify those who have already had the infection, and ensure that the vulnerable get the vaccine when it is launched, health and technology experts said,” reports Reuters. A biometric ID system can keep a record of [the infected] and those getting the vaccine, said Larry Dohrs, Southeast Asia head at iRespond, a Seattle-based nonprofit that launched its technology last month.The pretense for this—as it was for the US decimation of Libya, Syria, and Iraq—is “humanitarianism,” according to iRespond and Simprints, a British NGO partnered with Johns Hopkins University’s Global mHealth Initiative, the latter connected to the US military and its “Dark Winter” and “Event 201” pandemic scenarios (see Whitney Webb: All Roads Lead to Dark Winter). Total surveillance requires 24/7 monitoring of individuals—especially those included in the Main Core database of activists and political enemies of the state—and biometric technology introduced during the hysteria of an exaggerated health threat fits the bill. President Vladimir Putin: Who Armed the Terrorists in Syria? Who Created the Islamic State (ISIS).ID2020—a project initiated by the Rockefeller Foundation, Bill Gates and Microsoft, transnational pharmaceutical corporations, and technology firms—is pushing the concept that every human on the planet needs biometric verification because “to prove who you are is a fundamental and universal human right,” according to the ID2020 website. “What they really want is a fully standardized data collection and retrieval format, and cross-border sharing of identities of the entire population of the planet, in order for the stand-alone AI-powered command center to work without a hitch, and for purposes of calculating everyone’s potential contribution, and threat to the system,” explains OffGrid Healthcare. If you believe this is dangerously close to China’s “social credit” system, you’re not far off the mark.Introducing this totalitarian technology under the cover of a supposed pandemic rife with speculation and a dearth of hard numbers is a near-perfect cover for “patient ID technology” producing data on individuals shared with the state and its corporate partners. A vaccine ostensibly designed to combat COVID-19 will become mandatory and those who resist will be blacklisted as public health criminals. They will be locked out of society, similar to Chinese citizens suffering under China’s totalitarian social credit system. Martin Armstrong believes the healthcare-industrial complex and the state will surreptitiously introduce a nanotech ID and tracking chip along with a cocktail of vaccine toxins, or they will sell it to the public as a way to identify those presumably infected.The proposal is a digital certificate that verifies if you have been vaccinated and was developed by MIT and Microsoft. They are looking at merging this with Bill Gates’ ID2020. It is entirely possible that this scare has been a deliberate plot to get people to accept these digital implants. Refuse, and you will be prohibited from social gatherings. Like 9/11 conditioned us to be x-rayed before entering a plane, now the next stage is to embed digital markers that they have been using in dogs and cats.COVID-19 is the perfect Trojan horse for a control freak state itching to not only micromanage the lives of ordinary citizens but also ferret out critics and potential adversaries and punish them as enemies of the state. The latter is the primary objective. History is replete with examples—from Stalin and Mao to Hitler and Mussolini, with lesser autocrats and dictators along the way.
+    - Coronaviruses are an extremely common cause of colds and other upper respiratory infections.
